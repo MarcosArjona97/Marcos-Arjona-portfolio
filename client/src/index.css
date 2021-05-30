@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;500;600&display=swap');
 
-* {
-  overflow-x: hidden;
-}
-
 html {
   scroll-behavior: smooth;
 }
