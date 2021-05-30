@@ -1,0 +1,125 @@
+.projectsSection {
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(9, 14, 40);
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsSection p {
+    font-size: 22px;
+}
+
+.projectsSection h1 {
+    margin: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.projects > hr {
+    width: 100px;
+    height: 5px;
+    background-color: rgba(136, 250, 182, 1);
+    border-color: rgba(136, 250, 182, 1);
+}
+  
+.projects {
+    text-align: center;
+    padding: 70px 0px;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project_1, .project_2 {
+    display: flex;
+    text-align: left;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+.video_1, .video_2 {
+    max-width: 600px;
+    box-shadow: -3px -3px 10px rgba(136, 250, 182, 1);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.p1_body {
+    font-family: 'Montserrat';
+    border-left: 6px solid white;
+    padding-left: 30px;
+}
+
+.p2_body {
+    font-family: 'Montserrat';
+    border-right: 6px solid white;
+    padding-right: 30px; 
+}
+
+
+@media screen and (max-width: 1300px){
+    .projectsSection h1 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .project_1 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .project_2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .video_1, .video_2 {
+        margin: 10px 10px;
+        width: 90%;
+    }
+
+    .p2_body {
+        font-family: 'Montserrat';
+        border-left: 6px solid white;
+        padding-left: 30px;
+        border-right: none;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .projectsSection h1 {
+        margin: 0px;
+        font-size: 1em;
+    }
+
+    .project_1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project_2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .video_1, .video_2 {
+        width: 90%;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .p2_body {
+        font-family: 'Montserrat';
+        border-left: 6px solid white;
+        padding-left: 30px;
+        border-right: none;
+        padding-right: 0px;
+    }
+
+
+}

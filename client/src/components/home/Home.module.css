@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;500;600&display=swap');
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(9, 14, 40, 0.8);
+    margin: 0px;
+    position: relative;
+}
+
+.home img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.home > div > h1 {
+    margin: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+
+.home > div {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.home > div > span {
+    font-family: 'Montserrat';
+    color: rgba(141, 205, 225, 1);
+    margin-left: 5px;
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+.home > div > h1:nth-child(3n+1) {
+    color: rgba(136, 250, 182, 1);
+}
+
+.home > div > a {
+    margin-top: 100px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0);
+    width: fit-content;
+    padding: 3px 20px;
+    border-radius: 100px;
+    background-color: rgba(136, 250, 182, 1);
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    transition: all 0.2s;
+}
+
+.home > div > a:hover{
+    background-color: white;
+}
+
+.home > div > a:hover img {
+    animation: jump 1s ease-in-out infinite;
+}
+
+@keyframes jump {
+    0% {transform: translateY(0px)}
+    50% {transform: translateY(6px)}
+    100% {transform: translateY(0px)}
+}
+
+
+
+@media (max-width: 960px){
+    .home > div > h1 {
+        font-size: 60px;
+    }
+
+    .home > div > span {
+        margin-bottom: 50px;
+    }
+}
+
+  

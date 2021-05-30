@@ -1,0 +1,42 @@
+.footerContainer {
+    width: 100%;
+    background-color: rgba(55, 133, 156, 0.795);
+    height: 200px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.footerContainer > section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.redes > a > img {
+    height: 40px;
+    width: auto;
+    margin: 0px 8px;
+}
+
+.footerContainer p, h5 {
+    margin: 0px;
+    display: inline-block;
+}
+
+.footerContainer p {
+    font-size: 15px;
+}
+
+.footerContainer p::before {
+    content: "\00A9";
+}
+
+.footerContainer h5 {
+    margin-top: 30px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
