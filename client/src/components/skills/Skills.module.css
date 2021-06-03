@@ -70,12 +70,17 @@
 }
 
 @media (max-width: 600px){
+    .skillsSection {
+        padding-bottom: 20px;
+    }
+
     .iconsContainer > span > img {
         height: 100%;
         width: auto;
     }
     .iconsContainer {
         width: 100%;
+        margin: 0px;
     }
 
     .iconsContainer > span {
@@ -89,6 +94,7 @@
         margin: 0px;
         font-size: 1em;
     }
+    
 }
 
   
