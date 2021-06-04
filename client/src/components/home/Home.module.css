@@ -34,7 +34,7 @@
     font-family: 'Montserrat';
     color: rgba(141, 205, 225, 1);
     margin-left: 5px;
-    margin-bottom: 100px;
+    margin-bottom: 8vh;
     font-size: 30px;
 }
 
@@ -85,5 +85,6 @@
         margin-bottom: 50px;
     }
 }
+
 
   
