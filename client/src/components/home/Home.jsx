@@ -13,11 +13,11 @@ function Home() {
                 <span>I'm Marcos</span>
                 <h1>Full Stack</h1>
                 <h1>Web Developer</h1>
-                <a href={CV} download>
-                    <img src={DownloadIcon} alt="" />
+            </div>
+            <a href={CV} download>
+                <img src={DownloadIcon} alt="" />
                     Download CV
                 </a>
-            </div>
         </div>
     )
 }
