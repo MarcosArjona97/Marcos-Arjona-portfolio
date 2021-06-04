@@ -34,17 +34,19 @@ function NavBar() {
 
     window.addEventListener("scroll", changeNavBar);
     window.addEventListener("resize", showMenu);
-    
+
 
     return (
         <nav id="navBar" className={scroll ? "navBar active" : "navBar"}>
-            <img src={MarcosLogo} id="logo" alt="" />
+            <a href="#home">
+                <img src={MarcosLogo} id="logo" alt="" />
+            </a>
             {menu ?
                 <>
-                    <img src={MenuIcon} alt="" onClick={() => setOpen(!open)} id="menuIcon" className="menuIcon"/>
+                    <img src={MenuIcon} alt="" onClick={() => setOpen(!open)} id="menuIcon" className="menuIcon" />
                     {open ?
                         navBar.classList.add("open")
-                        : 
+                        :
                         navBar.classList.remove("open")
                     }
                     <ul>

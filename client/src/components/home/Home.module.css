@@ -59,6 +59,7 @@
     position: absolute;
     bottom: 10%;
     left: 10%;
+    font-weight: bold;
 }
 
 .home > a:hover{
