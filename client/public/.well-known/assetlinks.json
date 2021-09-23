@@ -5,7 +5,7 @@
         ],
         "target": {
             "namespace": "android_app",
-            "package_name": "com.myjarvis.app",
+            "package_name": "my.myjarvis.app",
             "sha256_cert_fingerprints": [
                 "4C:9C:AE:9D:3D:96:D3:4A:F3:96:8E:F8:5A:59:23:EC:C8:89:5A:C0:B1:23:E3:2A:E6:06:7C:9F:F3:28:20:E7"
             ]
