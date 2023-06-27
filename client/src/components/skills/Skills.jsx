@@ -8,7 +8,7 @@ import React_Icon from '../../assets/react-icon.png';
 import Node_Icon from '../../assets/node-icon.png';
 import Sequelize_Icon from '../../assets/sequelize-icon.png';
 import Git_Icon from '../../assets/git-icon.png';
-import Angular_Icon from '../../assets/angular-icon.png';
+import Angular_Icon from '../../assets/angular-icon.svg';
 import style from './Skills.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
