@@ -8,6 +8,7 @@ import React_Icon from '../../assets/react-icon.png';
 import Node_Icon from '../../assets/node-icon.png';
 import Sequelize_Icon from '../../assets/sequelize-icon.png';
 import Git_Icon from '../../assets/git-icon.png';
+import Angular_Icon from '../../assets/angular-icon.png';
 import style from './Skills.module.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -27,28 +28,31 @@ function Skills() {
                     <span data-aos="flip-left" data-aos-duration="600"><img src={JS_Icon} alt="" ></img>
                         Javascript
                     </span>
-                    <span data-aos="flip-left" data-aos-duration="800"><img src={HTML_Icon} alt="" ></img>
+                    <span data-aos="flip-left" data-aos-duration="800"><img src={Angular_Icon} alt="" ></img>
+                        Angular
+                    </span>
+                    <span data-aos="flip-left" data-aos-duration="1000"><img src={HTML_Icon} alt="" ></img>
                         HTML5
                     </span>
-                    <span data-aos="flip-left" data-aos-duration="1000"><img src={CSS_Icon} alt="" ></img>
+                    <span data-aos="flip-left" data-aos-duration="1200"><img src={CSS_Icon} alt="" ></img>
                         CSS3
                     </span>
-                    <span data-aos="flip-left" data-aos-duration="1200"><img src={Redux_Icon} alt="" ></img>
+                    <span data-aos="flip-left" data-aos-duration="1400"><img src={Redux_Icon} alt="" ></img>
                         Redux
                     </span>
-                    <span data-aos="flip-left" data-aos-duration="1400"><img src={Postgres_Icon} alt="" ></img>
+                    <span data-aos="flip-left" data-aos-duration="1600"><img src={Postgres_Icon} alt="" ></img>
                         PostgreSQL
                     </span>
-                    <span data-aos="flip-left" data-aos-duration="1600"><img src={React_Icon} alt="" ></img>
+                    <span data-aos="flip-left" data-aos-duration="1800"><img src={React_Icon} alt="" ></img>
                         React
                     </span>
-                    <span data-aos="flip-left" data-aos-duration="1800"><img src={Node_Icon} alt="" ></img>
+                    <span data-aos="flip-left" data-aos-duration="2000"><img src={Node_Icon} alt="" ></img>
                         Node
-                    </span> 
-                    <span data-aos="flip-left" data-aos-duration="2000"><img src={Sequelize_Icon} alt="" ></img>
+                    </span>
+                    <span data-aos="flip-left" data-aos-duration="2200"><img src={Sequelize_Icon} alt="" ></img>
                         Sequelize
                     </span>
-                    <span data-aos="flip-left" data-aos-duration="2200"><img src={Git_Icon} alt="" ></img>
+                    <span data-aos="flip-left" data-aos-duration="2400"><img src={Git_Icon} alt="" ></img>
                         GIT
                     </span>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Home.module.css';
 import NavBar from '../navBar/NavBar';
-import CV from '../../assets/Marcos-Arjona-CV-English.pdf';
+import CV from '../../assets/MARCOS_ARJONA_CV_ENGLISH.pdf';
 import DownloadIcon from '../../assets/download-icon.png';
 
 function Home() {
